@@ -1,0 +1,92 @@
+/* --------- SUITE LABS FONTS --------- */
+@font-face {
+    font-family: suiteLabsFontThin;
+    src: url(../fonts/roboto/Roboto-Thin.woff);
+}
+@font-face {
+    font-family: suiteLabsFontLight;
+    src: url(../fonts/roboto/Roboto-Light.woff);
+}
+@font-face {
+    font-family: suiteLabsFontRegular;
+    src: url(../fonts/roboto/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: suiteLabsFontMedium;
+    src: url(../fonts/roboto/Roboto-Medium.woff);
+}
+@font-face {
+    font-family: suiteLabsFontBold;
+    src: url(../fonts/roboto/Roboto-Bold.woff);
+}
+
+/* --------- GLOBAL STYLE CHOICES ---------- */
+body {
+	font-family: suiteLabsFontRegular;
+	height: 100%; 
+	width: 100%; 
+	position: absolute;
+	margin: 0;
+	overflow: hidden;
+}
+
+/* --------- NAV BAR --------- */
+#nav {
+	background-color: #353535;
+	opacity: 0.90;
+	height: 50px;
+	display: block;
+	margin: auto;
+}
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 25px;
+	max-width: 1300px;
+}
+.logo {
+	display: inline-block;
+}
+.links {
+	display: inline-block;
+	float: right;
+}
+#nav img {
+	height: 35px;
+	margin: 7px;
+	float: left;
+}
+.logo-text {
+	font-family: suiteLabsFontBold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 18px;
+	float: left;
+	line-height: 50px;
+	vertical-align: middle;
+}
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+#nav li {
+    display: inline;
+    margin-left: 18px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+#nav li a {
+	font-family: suiteLabsFontMedium;
+	text-transform: uppercase;
+    color: #FFFFFF;
+}
+#nav li a:hover {
+    color: #FCCB34;
+    transition: all 0.3s;
+}
+
+
+
