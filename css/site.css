@@ -57,7 +57,11 @@ body {
 	margin: 7px;
 	float: left;
 }
-.logo-text {
+.logo:not(:hover) .logo-text {
+	display: none;
+}
+.logo:hover .logo-text {
+	-webkit-transition-timing-function: ease-in;
 	font-family: suiteLabsFontBold;
 	text-transform: uppercase;
 	color: #FFFFFF;
@@ -79,7 +83,7 @@ body {
     line-height: 50px;
 }
 #nav li a {
-	font-family: suiteLabsFontMedium;
+	font-family: suiteLabsFontRegular;
 	text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -87,6 +91,16 @@ body {
     color: #FCCB34;
     transition: all 0.3s;
 }
+
+/* --------- SECTION ONE --------- */
+#section-one {
+	min-height: 100vh;
+	background-color: #F9E29C;
+}
+
+
+
+
 
 
 
